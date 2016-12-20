@@ -219,8 +219,7 @@ namespace UIAComWrapperTests
         }
 
         [Test]
-        [Ignore]
-        // Test is not working on Windows 8 due to changes in Explorer
+        [Ignore("Test is not working on Windows 8 due to changes in Explorer")]
         public void VirtualizedPatternTest()
         {
             AutomationElement itemsView = ExplorerTargetTests.explorerHost.Element.FindFirst(TreeScope.Subtree,

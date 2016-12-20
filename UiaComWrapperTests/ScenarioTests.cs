@@ -156,7 +156,7 @@ namespace UIAComWrapperTests
         }
 
         [Test]
-        [Ignore]
+        [Ignore("Not sure")]
         public void TextPatternTest()
         {
             System.Reflection.Assembly asm = System.Reflection.Assembly.GetExecutingAssembly();
